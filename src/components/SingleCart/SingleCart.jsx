@@ -1,10 +1,13 @@
 import React from 'react'
 
 const SingleCart = ({singleData}) => {
-    console.log(singleData);
+const {name , website} =singleData;
     
   return (
-    <div>SingleCart</div>
+    <div>
+        <h2> Name : {name} </h2>
+        <p> Website : {website}</p>
+    </div>
   )
 }
 

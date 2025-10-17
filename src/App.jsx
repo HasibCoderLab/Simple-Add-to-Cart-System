@@ -7,9 +7,10 @@ import Products from './components/Products'
 
 function App() {
  const  [cart , setCart] =  useState([]);
-  const addToCart = () =>{
-    const newCart = [...cart , Placement];
-    setCart(newCart);
+
+  const addToCart = (placement) =>{
+    const newPlacement = [...cart , placement];
+    setCart(newPlacement);
     
   }
 
