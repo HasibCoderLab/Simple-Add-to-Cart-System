@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Product = () => {
+const Product = ({product}) => {
+ const {name, phone} =    product;
+
   return (
-    <div>Product</div>
+    <div>
+        <h1>Name : {name} </h1>
+    </div>
   )
 }
 
