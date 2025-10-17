@@ -8,15 +8,17 @@ Simple react project with tailwind-Css
 ![Overview](./src/assets/overview/overview-2.png)
 
 ---
+## 📂 Project File Structure
 ```
-Simple-Add-to-Cart-System/
-│──  src
-│         └──assets/
-│               └── overview/
-│                 └── overview-1.png
-│                   └── overview-2.png  
-│── components/  
-|             Placement              
-|                  └── Placement.jsx
+              Simple-Add-to-Cart-System/
+│── src/
+│   ├── assets/
+│   │   └── overview/
+│   │       ├── overview-1.png
+│   │       └── overview-2.png
+│   └── components/
+│       └── Placement/
+│           └── Placement.jsx
+
  
 ```
