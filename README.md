@@ -10,15 +10,27 @@ Simple react project with tailwind-Css
 ---
 ## 📂 Project File Structure
 ```
-              Simple-Add-to-Cart-System/
+ Simple-Add-to-Cart-System/
 │── src/
 │   ├── assets/
 │   │   └── overview/
 │   │       ├── overview-1.png
 │   │       └── overview-2.png
 │   └── components/
-│       └── Placement/
-│           └── Placement.jsx
+│       ├── Placement/
+│       │   └── Placement.jsx
+│       ├── Product/
+│       │   └── Product.jsx
+│       ├── Products/
+│       │   └── Products.jsx
+│       └── SingleCart/
+│           └── SingleCart.jsx
+│
+│── src/
+│     ├──public
+│          ├── FakeData.json
+│          └── vite.svg
+│
 
- 
+
 ```
