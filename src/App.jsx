@@ -1,20 +1,22 @@
 
+import { useState } from 'react'
 import './App.css'
 import Placement from './components/Placement/Placement'
 import Products from './components/Products'
 
 
 function App() {
-  
+ const  [cart , setCart] =  useState([]);
   const addToCart = () =>{
-    console.log("Clicked");
+    const newCart = [...cart , Placement];
+    setCart(newCart);
     
   }
 
   return (
   <div className ='flex gap-x-6'>
    <Products addToCart = {addToCart}></Products>
-   <Placement></Placement>
+   <Placement cart = {cart}></Placement>
   </div>
   )
 }
