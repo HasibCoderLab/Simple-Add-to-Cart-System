@@ -7,7 +7,7 @@ const Placement = ({cart}) => {
   return (
     
     <div>
-        <h1>Placement</h1>
+        <h1>Add to cart : {cart.length}</h1>
         {
             cart.map(singleData =>  <SingleCart
             key = {singleData.id}
