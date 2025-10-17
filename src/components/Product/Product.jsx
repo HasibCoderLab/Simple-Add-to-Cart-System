@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Product = ({product}) => {
+const Product = ({product , addToCart}) => {
  const {name, phone,website,email} =    product;
 
   return (
