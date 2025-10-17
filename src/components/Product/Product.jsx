@@ -8,7 +8,8 @@ const Product = ({product}) => {
         <h1>Name : {name} </h1>
         <p>Phone : {phone} </p>
         <h2>Website : {website} </h2>
-        <span>Email : {email} </span>
+        <p>Email : {email} </p>
+        <button className='bg-emerald-600 mt-3'> Add to cart </button>
     </div>
   )
 }
