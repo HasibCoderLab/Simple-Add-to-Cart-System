@@ -1,13 +1,14 @@
 
 import './App.css'
-import Products from './Products/Products'
+import Products from './components/Products'
+
 
 function App() {
   
 
   return (
   <div>
-<Products></Products>
+   <Products></Products>
   </div>
   )
 }
